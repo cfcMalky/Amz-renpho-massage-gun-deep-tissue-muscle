@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>RENPHO Active Massage Gun</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0e1117;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:
+    linear-gradient(to right, rgba(14,17,23,.96), rgba(14,17,23,.75)),
+    url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1800&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    padding:80px 0;
+}
+
+.hero-content{
+    max-width:700px;
+}
+
+.badge{
+    display:inline-block;
+    padding:10px 18px;
+    border-radius:50px;
+    background:rgba(6,182,212,.12);
+    border:1px solid rgba(6,182,212,.35);
+    color:#67e8f9;
+    margin-bottom:25px;
+    font-size:14px;
+    letter-spacing:.5px;
+}
+
+.hero h1{
+    font-size:4.2rem;
+    line-height:1.1;
+    margin-bottom:25px;
+}
+
+.hero p{
+    color:#cbd5e1;
+    font-size:1.1rem;
+    line-height:1.9;
+    margin-bottom:40px;
+}
+
+.cta-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:16px 30px;
+    border-radius:14px;
+    font-weight:600;
+    transition:.3s ease;
+}
+
+.btn-primary{
+    background:#06b6d4;
+    color:#fff;
+    box-shadow:0 10px 30px rgba(6,182,212,.25);
+}
+
+.btn-primary:hover{
+    transform:translateY(-4px);
+    background:#0891b2;
+}
+
+.btn-secondary{
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    color:#fff;
+}
+
+.btn-secondary:hover{
+    background:rgba(255,255,255,.1);
+}
+
+.section{
+    padding:100px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.7rem;
+    margin-bottom:60px;
+}
+
+.features{
+    background:#131926;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:28px;
+}
+
+.card{
+    background:#1a2232;
+    padding:35px;
+    border-radius:24px;
+    border:1px solid rgba(255,255,255,.05);
+    transition:.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    margin-bottom:18px;
+    font-size:1.35rem;
+}
+
+.card p{
+    color:#cbd5e1;
+    line-height:1.8;
+}
+
+.video-section{
+    background:#0f141d;
+}
+
+.video-wrapper{
+    position:relative;
+    padding-bottom:56.25%;
+    height:0;
+    overflow:hidden;
+    border-radius:24px;
+    box-shadow:0 20px 60px rgba(0,0,0,.4);
+}
+
+.video-wrapper iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border:none;
+}
+
+.review-section{
+    background:linear-gradient(135deg,#06b6d4,#2563eb);
+}
+
+.review-box{
+    max-width:950px;
+    margin:auto;
+    background:rgba(255,255,255,.08);
+    padding:50px;
+    border-radius:30px;
+    backdrop-filter:blur(10px);
+}
+
+.review-box p{
+    line-height:2;
+    font-size:1.05rem;
+    margin-bottom:22px;
+}
+
+.review-box strong{
+    color:#fff;
+}
+
+.review-list{
+    margin-top:25px;
+}
+
+.review-list li{
+    margin-bottom:15px;
+    line-height:1.8;
+}
+
+.final-cta{
+    background:#0b0f15;
+    text-align:center;
+}
+
+.final-cta h2{
+    font-size:3rem;
+    margin-bottom:25px;
+}
+
+.final-cta p{
+    color:#cbd5e1;
+    max-width:750px;
+    margin:auto;
+    line-height:1.9;
+    margin-bottom:40px;
+}
+
+.footer{
+    padding:35px 0;
+    text-align:center;
+    color:#94a3b8;
+    background:#080b10;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.8rem;
+}
+
+.section-title{
+    font-size:2rem;
+}
+
+.final-cta h2{
+    font-size:2.2rem;
+}
+
+.review-box{
+    padding:30px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                Compact • Powerful • Quiet Recovery
+            </div>
+
+            <h1>
+                Recover Smarter With RENPHO Active
+            </h1>
+
+            <p>
+                The RENPHO Active percussion massager delivers deep tissue relief in a lightweight, travel-friendly design built for athletes, busy lifestyles, and everyday recovery.
+            </p>
+
+            <div class="cta-buttons">
+
+                <a href="https://www.amazon.co.uk/dp/B085NTR26K?ref=cm_sw_r_cso_cp_apin_dp_XTDFWKJX66Z4HSG4HWWX_1&ref_=cm_sw_r_cso_cp_apin_dp_XTDFWKJX66Z4HSG4HWWX_1&social_share=cm_sw_r_cso_cp_apin_dp_XTDFWKJX66Z4HSG4HWWX_1"
+                   target="_blank"
+                   class="btn btn-primary">
+                   Shop Now on Amazon
+                </a>
+
+                <a href="#video"
+                   class="btn btn-secondary">
+                   Watch Video
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section features">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Why Everyone Loves It
+        </h2>
+
+        <div class="feature-grid">
+
+            <div class="card">
+                <h3>Deep Tissue Recovery</h3>
+                <p>
+                    Powerful percussion therapy helps reduce soreness, loosen tight muscles, and speed up recovery after workouts or long days.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Ultra Portable</h3>
+                <p>
+                    Lightweight compact design with premium travel case makes it easy to carry anywhere — gym, office, or holiday.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Whisper Quiet</h3>
+                <p>
+                    Surprisingly quiet operation means you can use it comfortably without disturbing everyone around you.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>USB-C Charging</h3>
+                <p>
+                    Convenient USB-C charging lets you power up quickly using modern chargers and power banks.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section video-section" id="video">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            See It In Action
+        </h2>
+
+        <div class="video-wrapper">
+
+            <iframe
+                src="https://www.youtube.com/embed/3SzikcdDm2A"
+                title="RENPHO Active Massage Gun Review"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section review-section">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Real Review Highlights
+        </h2>
+
+        <div class="review-box">
+
+            <p>
+                The <strong>Renpho Active percussion massager</strong> is a fantastic compact recovery tool that combines <strong>serious power with impressively quiet performance</strong>.
+            </p>
+
+            <p>
+                One of the standout touches is the <strong>premium double-zippered travel case</strong>, keeping the massager and all accessories perfectly organised whether you're at home or on the move.
+            </p>
+
+            <p>
+                At only around <strong>2 to 2.5 pounds</strong>, the unit feels lightweight and comfortable to hold, while the <strong>soft silicone grip</strong> provides excellent comfort during longer sessions.
+            </p>
+
+            <p>
+                The clear display and simple controls make it easy to switch between <strong>five speed levels</strong>, allowing you to customise the intensity depending on the muscle group you're targeting.
+            </p>
+
+            <ul class="review-list">
+
+                <li>
+                    ✔ Shock-absorbing massage head feels gentler on muscles
+                </li>
+
+                <li>
+                    ✔ Quiet enough for shared spaces and evening recovery
+                </li>
+
+                <li>
+                    ✔ Built-in 10 minute auto shutoff protection
+                </li>
+
+                <li>
+                    ✔ Excellent for neck, shoulders, legs, and post-workout recovery
+                </li>
+
+                <li>
+                    ✔ USB-C charging makes travelling incredibly convenient
+                </li>
+
+            </ul>
+
+            <p style="margin-top:30px;">
+                Overall, it’s a highly portable and customisable massage gun that quickly becomes a household favourite.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section final-cta">
+
+    <div class="container">
+
+        <h2>
+            Feel The Difference
+        </h2>
+
+        <p>
+            Whether you train hard, work long shifts, or simply want relief from daily tension, the RENPHO Active massage gun is built to help your body recover faster and feel better.
+        </p>
+
+        <a href="https://www.amazon.co.uk/dp/B085NTR26K?ref=cm_sw_r_cso_cp_apin_dp_XTDFWKJX66Z4HSG4HWWX_1&ref_=cm_sw_r_cso_cp_apin_dp_XTDFWKJX66Z4HSG4HWWX_1&social_share=cm_sw_r_cso_cp_apin_dp_XTDFWKJX66Z4HSG4HWWX_1"
+           target="_blank"
+           class="btn btn-primary">
+           Get Yours On Amazon
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+    Built for recovery, comfort, and everyday performance.
+</footer>
+
+</body>
+</html>
